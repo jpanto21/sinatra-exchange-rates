@@ -46,7 +46,7 @@
 
     raw_data = HTTP.get(api_url)
   
-    parsed_data = JSON.parse(raw_data_string)
+    parsed_data = JSON.parse(raw_data)
   
     @conversion=parsed_data.fetch("result")
 
